@@ -19,7 +19,7 @@ you can read the [office hour description](misc/office-hour-description.md).
 
 Office Hours:
 * Mondays 1 - 2 PM
-* Tuesdays 11 AM - 12 PM
+* Tuesdays 10 - 11 AM
 * Fridays 10 - 11 AM
 
 I am also happy to schedule additional meetings outside of office hours.

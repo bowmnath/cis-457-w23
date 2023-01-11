@@ -96,6 +96,7 @@ Instead, you enlist the help of a trusted friend.
 * They then disembark and walk to the vet.
 * The vet gives the dog some medicine.
 * Your friend and the dog return to you via the same route.
+
 Explain this process in terms of the network protocol stack,
 particularly the application, network, and link layers.
 

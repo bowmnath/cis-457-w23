@@ -223,7 +223,7 @@ no further resubmissions will be allowed.
 
 Deadline to drop with a "W" grade: March 10, 2023, before 5 pm.
 
-Midterm Exam: TBD
+Midterm Exam: Tuesday, February 28
 
 Final Exam: TBD
 

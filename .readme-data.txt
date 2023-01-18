@@ -159,8 +159,8 @@ Deliverables
 2, Intro Lab, https://us.prairielearn.com/pl/course_instance/129808/assessment/2324876, Tuesday, Jan. 17 (recommended)
 2, Syllabus quiz, https://us.prairielearn.com/pl/course_instance/129808/assessment/2324877
 2, HW 1, https://us.prairielearn.com/pl/course_instance/129808/assessment/2325890, Friday, Jan. 20 (recommended)
-3, HTTP Lab
-4, HW 2: HTTP, https://us.prairielearn.com/pl/course_instance/129808/assessment/2326814, Tuesday, Jan. 24 (recommended)
+3, HTTP Lab, https://us.prairielearn.com/pl/course_instance/129808/assessment/2326814, Tuesday, Jan. 24 (recommended)
+4, HW 2: HTTP
 4, DNS Lab
 5, Socket Lab
 5, HW 3: DNS & SMTP

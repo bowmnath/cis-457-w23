@@ -1,0 +1,20 @@
+#!/bin/bash
+#This script should be copied into your .git/hooks directory *twice*.
+#The file must be named *exactly*:
+#
+#.git/hooks/pre-commit
+#
+#and
+#
+#.git/hooks/prepare-commit-msg
+#
+#On mac or linux, just run:
+#
+#cp pre-commit .git/hooks
+#cp pre-commit .git/hooks/prepare-commit-msg
+#
+#The script needs to be copied twice because pre-commit does not work for
+#merge commits.
+.helpers/check_capitalization.py
+.helpers/generate_readme.py
+git add README.md

@@ -45,10 +45,15 @@ Note: some questions may be taken entirely or in part from your textbook.
    * The protocol runs over UDP
 
    During the discussion section,
-   there will be an implementation of the server side of this protocol running on
-   DataComm.
+   there will be an implementation of the server side of this protocol running
+   on DataComm.
    * Write client code that allows you to interact with this server and displays
      the server responses.
+     That is,
+     your code should
+     (1) accept user input (either a greeting or a pair of numbers),
+     (2) send the input to the server,
+     (3) receive from the server and print the response.
      This code can actually interact with my server if you run it on the DataComm
      computers via `cislab.hpc.gvsu.edu`.
    * Try out a few interactions with the server,

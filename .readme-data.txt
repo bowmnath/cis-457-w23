@@ -165,7 +165,7 @@ Deliverables
 5, Socket Lab
 5, HW 3: DNS & SMTP
 6, UDP Lab
-6, HTTP Project
+6, HTTP Project, https://us.prairielearn.com/pl/course_instance/129808/assessment/2329091, Wednesday, Feb. 15
 6, HW 4: Transport and Reliable Transfer
 7, TCP Lab
 8, HW 5: TCP and Flow Control

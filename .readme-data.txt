@@ -162,8 +162,8 @@ Deliverables
 3, HTTP Lab, https://us.prairielearn.com/pl/course_instance/129808/assessment/2326814, Tuesday, Jan. 24 (recommended)
 3, HW 2: HTTP, https://us.prairielearn.com/pl/course_instance/129808/assessment/2327441, Friday, Jan. 27 (recommended)
 4, DNS Lab, https://us.prairielearn.com/pl/course_instance/129808/assessment/2327672, Tuesday, Jan. 31 (recommended)
-5, Socket Lab
-5, HW 3: DNS & SMTP
+5, Socket Lab, https://us.prairielearn.com/pl/course_instance/129808/assessment/2328662, Tuesday, Feb. 7 (recommended)
+5, HW 3: DNS & SMTP, https://us.prairielearn.com/pl/course_instance/129808/assessment/2328696, Monday, Feb. 6 (recommended)
 6, UDP Lab
 6, HTTP Project, https://us.prairielearn.com/pl/course_instance/129808/assessment/2329091, Wednesday, Feb. 15
 6, HW 4: Transport and Reliable Transfer

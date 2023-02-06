@@ -44,7 +44,7 @@
    led to better performance.
    Given this,
    can you think of any reason why a protocol would not allow an unlimited
-   number of outstanding letters?
+   number of outstanding messages?
 
 For the next few questions,
 imagine you have a one-sided pen pal,

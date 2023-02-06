@@ -40,7 +40,7 @@
    neglibible.
 
 7. In your answers above,
-   you should have found that the larger number of outstanding letters
+   you should have found that the larger number of outstanding messages
    led to better performance.
    Given this,
    can you think of any reason why a protocol would not allow an unlimited

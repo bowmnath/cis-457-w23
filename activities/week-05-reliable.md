@@ -154,11 +154,18 @@ The sender recieves just one ACK, and the ACK is for packet 3.
    If not, why not?
 -->
 
-21. Assume a TCP sender sends packets 1 - 5 and receives ACKs for 1, 4, and 5.
-    What packet(s) will be re-sent after the next timeout?
+For the next two questions,
+assume a TCP sender sends 5 packets, each containing one byte.
+(Remember -- TCP sequence numbers don't count packets, but bytes.)
+Assume the sequence numbers are simply 1 - 5.
 
-22. Assume a TCP sender sends packets 1 - 5 and receives ACKs for 1 and 2.
-    What packet(s) will be re-sent after the next timeout?
+21. If the sender receives ACKs confirming that bytes 1, 4, and 5 arrived
+    safely,
+    which packet(s) will be re-sent after the next timeout?
+
+22. If the sender instead receives ACKs confirming that bytes 1 and 2 arrived
+    safely,
+    which packet(s) will be re-sent after the next timeout?
 
 23. Why is a server generally able to handle more UDP clients at once than TCP
     clients?

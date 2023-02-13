@@ -167,7 +167,7 @@ Deliverables
 6, UDP Lab, https://us.prairielearn.com/pl/course_instance/129808/assessment/2331073, Tuesday, Feb. 14 (recommended)
 6, HTTP Project, https://us.prairielearn.com/pl/course_instance/129808/assessment/2329091, Wednesday, Feb. 15
 6, HW 4: Transport and Reliable Transfer, https://us.prairielearn.com/pl/course_instance/129808/assessment/2331272, Friday, Feb. 17 (recommended)
-7, TCP Lab
+7, TCP Lab, https://us.prairielearn.com/pl/course_instance/129808/assessment/2332061, Tuesday, Feb. 21 (recommended)
 8, HW 5: TCP and Flow Control
 8, **Midterm Exam**,,Tues., Feb 28
 11, IP Lab

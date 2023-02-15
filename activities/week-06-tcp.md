@@ -164,6 +164,7 @@ how many ACKs must they receive before their window is 17 packets?
 a sender generally will not spend much time there.
 Why not?
 
+<!--
 21. Imagine you want five pieces of furniture from a store that is one hour
 away.
 Your car is large enough to fit just one piece of furniture at a time.
@@ -192,3 +193,23 @@ and how would it effect the times of the two scenarios?
 24. The topic above is somewhat different from caching.
 How is this scenario different?
 What would caching look like in our made-up furniture example?
+-->
+
+21. Why is TCP somewhat inefficient when a small amount of data is being
+    transferred?
+
+22. With TCP splitting,
+    a client can save time by connecting to a nearby server instead of a
+    far-away one.
+    At a high level, this sounds a lot like caching,
+    but it is in fact quite different.
+    Explain some differences between TCP splitting and caching.
+
+23. Assume you are the first person ever from your network to download a
+    particular web page.
+    Which of the following would be more helpful and why?
+    * a nearby server that provided TCP splitting to the web server
+    * a web cache
+
+    Would your answer change at all if you were the second person to download
+    the page?

@@ -171,7 +171,7 @@ Deliverables
 8, HW 5: TCP and Flow Control, https://us.prairielearn.com/pl/course_instance/129808/assessment/2332682, Tues., Feb 28 (actual)
 8, **Midterm Exam**,,Tues., Feb 28
 11, IP Lab
-11, FTP Project
+11, FTP Project,https://us.prairielearn.com/pl/course_instance/129808/assessment/2334239,Friday, March 24
 12, ICMP Lab
 12, HW 6: Network Layer
 14, Ethernet Lab

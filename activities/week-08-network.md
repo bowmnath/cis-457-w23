@@ -95,19 +95,19 @@
     have different `c`,
     and reside on the same subnet as one another.
 
-    For the next few questions,
-    consider the following scenario.
-    A network administrator used to need to get every device hooked up to the
-    company wifi manually.
-    Anyone who came on the property would bring their laptop or phone to them,
-    and they would look at their list of available IP addresses and type one in to
-    the device.
-    Being lazy,
-    like all programmers,
-    the admin set up a new system where people would instead send an email with
-    subject line `IP Please` as soon as they arrived to the office,
-    and the admin's computer was programmed to automatically reply with an
-    available IP address.
+For the next few questions,
+consider the following scenario.
+A network administrator used to need to get every device hooked up to the
+company wifi manually.
+Anyone who came on the property would bring their laptop or phone to them,
+and they would look at their list of available IP addresses and type one in to
+the device.
+Being lazy,
+like all programmers,
+the admin set up a new system where people would instead send an email with
+subject line `IP Please` as soon as they arrived to the office,
+and the admin's computer was programmed to automatically reply with an
+available IP address.
 
 18. What protocol is the admin trying to reinvent?
     (Or, in other words, what protocol should they be using instead?)

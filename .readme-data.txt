@@ -170,7 +170,7 @@ Deliverables
 7, TCP Lab, https://us.prairielearn.com/pl/course_instance/129808/assessment/2332061, Tuesday, Feb. 21 (recommended)
 8, HW 5: TCP and Flow Control, https://us.prairielearn.com/pl/course_instance/129808/assessment/2332682, Tues., Feb 28 (actual)
 8, **Midterm Exam**,,Tues., Feb 28
-11, IP Lab
+11, IP Lab, https://us.prairielearn.com/pl/course_instance/129808/assessment/2336253, Tues., March 21 (recommended)
 11, FTP Project,https://us.prairielearn.com/pl/course_instance/129808/assessment/2334239,Friday, March 24
 12, ICMP Lab
 12, HW 6: Network Layer

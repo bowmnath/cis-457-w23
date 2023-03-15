@@ -68,27 +68,27 @@
     Which subnet has the potential to be bigger
     (i.e., has more available addresses for hosts on that subnet)?
 
-13. Why are IPv4 addresses represented as combinations of numbers from 0 - 255?
+14. Why are IPv4 addresses represented as combinations of numbers from 0 - 255?
     I.e., why is 320.2.900.4 not a valid IP address?
     Is there any other way that IP addresses could be written besides
     `[0-255].[0-255].[0-255].[0-255]`?
 
-14. Host A has IP address 200.90.1.5.
+15. Host A has IP address 200.90.1.5.
     Host B has IP address 200.90.2.5.
     Can Host A contact Host B without going through a router?
     Why or why not?
 
-15. Consider two end hosts connected by a chain of five routers.
+16. Consider two end hosts connected by a chain of five routers.
     If you were to sketch out this situation,
     what is the minimum number of subnets that would be included in your drawing?
 
-16. With the subnet mask `255.255.252.0`,
+17. With the subnet mask `255.255.252.0`,
     what is the maximum number of hosts on the subnet?
     If the mask were written in the other format,
     `a.b.c.d/x`,
     what would be the value of `x`?
 
-17. With the subnet mask above,
+18. With the subnet mask above,
     find two addresses that have the same first two numbers (`a` and `b`)
     but would reside on different subnets.
     Then, find two addresses that have the same `a` and `b`,
@@ -109,10 +109,10 @@ subject line `IP Please` as soon as they arrived to the office,
 and the admin's computer was programmed to automatically reply with an
 available IP address.
 
-18. What protocol is the admin trying to reinvent?
+19. What protocol is the admin trying to reinvent?
     (Or, in other words, what protocol should they be using instead?)
 
-19. This scenario will not work as intended by the administrator.
+20. This scenario will not work as intended by the administrator.
     Why?
 
 <!--
@@ -120,7 +120,7 @@ available IP address.
 intended?
 -->
 
-20. Due to COVID,
+21. Due to COVID,
     a major fast food chain starts using a take-a-ticket system so that customers
     do not need to stand near one another in line.
     As one of their first customers that day, you get ticket #7.
@@ -129,31 +129,31 @@ intended?
     This large number is kind of inconvenient to say, write down, etc.
     What lesson from networking did the fast food company fail to take in?
 
-21. Why is it important that DHCP requests and replies include a transaction ID?
+22. Why is it important that DHCP requests and replies include a transaction ID?
 
-22. Why are DHCP addresses leased as opposed to given permanently?
+23. Why are DHCP addresses leased as opposed to given permanently?
 
 For the next two questions,
 consider a lazy host that does not want to send a DHCP discover message.
 Instead, it listens for a DHCP offer message that is triggered by someone
 else's discover message.
 
-23. Why is it possible for the lazy host to do this in the first place
+24. Why is it possible for the lazy host to do this in the first place
     (i.e., why is it able to learn what address was offered to another host)?
 
-24. If the lazy host sends a DHCP request for that offered IP address,
+25. If the lazy host sends a DHCP request for that offered IP address,
     and the original host also sends a request for that address,
     are there now two hosts that both believe they have the same IP address?
     If so, what problems does this cause?
     If not, why not?
 
-25. ISP A advertises that it services hosts 180.23.0.0/16.
+26. ISP A advertises that it services hosts 180.23.0.0/16.
     ISP B advertises that it services hosts 180.23.17.0/24.
     Where will packets to the following destinations be routed?
     * 180.23.16.5
     * 180.23.17.2
 
-26. An ISP owns 8192 IPv4 addresses.
+27. An ISP owns 8192 IPv4 addresses.
     Which of the following will make for simpler routing tables elsewhere on
     the internet?
     * The ISP owns one chunk of 8192 addresses
@@ -198,7 +198,7 @@ there is no reason this should be impossible:
 give a block of 32 and a block of 1.
 -->
 
-27. Consider a subnet 10.0.0.0/24 residing behind a NAT.
+28. Consider a subnet 10.0.0.0/24 residing behind a NAT.
     The internet-facing IP address of the gateway router is 270.33.9.4.
     Host 10.0.0.2 sends a DNS query (port 53) to 138.75.90.2.
     Give the source IP, source port, destination IP, and destination port of the
@@ -210,9 +210,9 @@ give a block of 32 and a block of 1.
     * DNS response while in public internet
     * DNS response within subnet
 
-28. Why is it possible (sort of) for two hosts on the internet to have the IP
+29. Why is it possible (sort of) for two hosts on the internet to have the IP
     address 192.168.2.2?
 
-29. What is the main reason for the transition to IPv6?
+30. What is the main reason for the transition to IPv6?
     Why might routers be able to handle IPv6 packets more efficiently than IPv4
     packets?

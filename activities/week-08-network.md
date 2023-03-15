@@ -161,18 +161,44 @@ else's discover message.
 
     Why?
 
+<!--
+
+Removed these questions for now because they're a little odd.
+In both cases,
+assigning the addresses as one block is not possible.
+But, with longest prefix matching,
+you should be able to work things around to an arbitrary degree.
+I guess they are fine "it depends" questions,
+but I think that as worded they're unnecessarily confusing for a limited
+benefit.
+
 27. ISP A owns addresses `234.27.2.0` through `234.27.16.0`.
     It wants to sell some of them to ISP B,
     which serves hosts on the other side of the world.
     Is it possible for ISP B to buy just `234.27.4.0` through `234.27.8.0`?
     Why or why not?
 
+Ans: Not as one block.
+Selling 234.27.4.0/22 would get you every address in
+* 234.27.4.*
+* 234.27.5.*
+* 234.27.6.*
+* 234.27.7.*
+To get 234.27.8.*, you would need to obtain it as 234.27.8.0/24.
+
 28. An ISP has 8192 addresses available.
     A customer of that ISP wants 33 IP addresses.
     Is it possible for the ISP to satisfy that request exactly?
     Why or why not?
 
-29. Consider a subnet 10.0.0.0/24 residing behind a NAT.
+Ans: Not as a single block.
+Blocks must be powers of two.
+However, with longest prefix matching,
+there is no reason this should be impossible:
+give a block of 32 and a block of 1.
+-->
+
+27. Consider a subnet 10.0.0.0/24 residing behind a NAT.
     The internet-facing IP address of the gateway router is 270.33.9.4.
     Host 10.0.0.2 sends a DNS query (port 53) to 138.75.90.2.
     Give the source IP, source port, destination IP, and destination port of the
@@ -184,9 +210,9 @@ else's discover message.
     * DNS response while in public internet
     * DNS response within subnet
 
-30. Why is it possible (sort of) for two hosts on the internet to have the IP
+28. Why is it possible (sort of) for two hosts on the internet to have the IP
     address 192.168.2.2?
 
-31. What is the main reason for the transition to IPv6?
+29. What is the main reason for the transition to IPv6?
     Why might routers be able to handle IPv6 packets more efficiently than IPv4
     packets?

@@ -4,9 +4,7 @@
    it is not considered part of the transport layer.
    Why not?
 
-2. Why is it helpful that ICMP does not run on top of TCP or UDP?
-
-3. In a post-apocalyptic wasteland with no Google maps but plenty of gasoline,
+2. In a post-apocalyptic wasteland with no Google maps but plenty of gasoline,
    you are trying to create a map of the route from your town to a distant
    city.
    You send out a driver with an eigth of a tank of gas,
@@ -19,42 +17,42 @@
    What networking tool have you recreated?
    Are there any significant differences from the actual tool?
 
-4. What is the general purpose of ICMP
+3. What is the general purpose of ICMP
    (i.e., why does it exist)?
 
-5. What is the difference between SNMP in request/response mode vs trap mode?
+4. What is the difference between SNMP in request/response mode vs trap mode?
    (The purpose, not the header information.)
 
-6. Give an analogy to explain the difference between the link and network
+5. Give an analogy to explain the difference between the link and network
    layers.
    One that is at least slightly different from the analogy in the lecture
    video would be preferable.
 
-7. What is the "payload" of a link-layer frame
+6. What is the "payload" of a link-layer frame
    (i.e., what "data" does it contain)?
 
-8. Which of the following need to run link layer protocols?
+7. Which of the following need to run link layer protocols?
     * Gateway router
     * Backbone router
     * Host running a Web client
     * Host running a Web server
 
-9. Error detection and correction have somewhat obvious upsides.
+8. Error detection and correction have somewhat obvious upsides.
    What are some downsides to error detection and/or correction?
 
-10. You and your friend are trying to play a game of chess over the phone
-    because you wanted to make a convenient metaphor for your networking
-    professor.
-    You tell them your moves (e.g., "knight to A-3") and they arrange the
-    pieces on the board.
-    You used to play over a land-line,
-    and you never bothered to repeat yourself.
-    One day you decide to move to walkie-talkies to save on your phone bill,
-    and your friend starts reading back every move to you to make sure they
-    heard you correctly.
-    What does this have to do with link-layer protocols?
+9. You and your friend are trying to play a game of chess over the phone
+   because you wanted to make a convenient metaphor for your networking
+   professor.
+   You tell them your moves (e.g., "knight to A-3") and they arrange the
+   pieces on the board.
+   You used to play over a land-line,
+   and you never bothered to repeat yourself.
+   One day you decide to move to walkie-talkies to save on your phone bill,
+   and your friend starts reading back every move to you to make sure they
+   heard you correctly.
+   What does this have to do with link-layer protocols?
 
-11. Pizza Shack wants to be environmentally friendly,
+10. Pizza Shack wants to be environmentally friendly,
     so they don't have delivery drivers.
     Instead, they post a delivery runner at every intersection,
     and each runner will pass the pizza along to the next runner so that nobody
@@ -69,10 +67,10 @@
 
     What are some upsides and downsides to this system?
 
-12. In networking terms,
+11. In networking terms,
     how would different layers have come into play in the previous example?
 
-13. Consider the high-level description of error detection below.
+12. Consider the high-level description of error detection below.
     What is wrong with this description?
 
     The sender appends extra bits to the message according to some agreed-upon
@@ -84,7 +82,7 @@
     it passes the payload up to the next layer.
     Otherwise, it discards the frame.
 
-14. Consider parity-checking system where parity bit ensures sum is odd.
+13. Consider parity-checking system where parity bit ensures sum is odd.
     A sender sends the following (`message | parity bit`).
 
     ```
@@ -97,7 +95,7 @@
     11000000 | 1
     ````
 
-15. Assume we are using a two-dimensional parity where the parity bit ensures
+14. Assume we are using a two-dimensional parity where the parity bit ensures
     the sum is odd.
     (Note that this is different from the two-dimensional parity scheme
     described in the slides.)
@@ -113,7 +111,7 @@
     0 1 0 0 | 0
     ```
 
-16. Using a cyclic redundancy check with the generator `1101`,
+15. Using a cyclic redundancy check with the generator `1101`,
     append the three-bit value `R` to the message `1011010`.
     You can check your answer by performing the CRC as the receiver using your
     determined value of R.
@@ -160,15 +158,15 @@
     ```
     -->
 
-17. As people, we share the medium of sound when communicating.
+16. As people, we share the medium of sound when communicating.
     Give examples of human protocols for sharing this medium,
     both in one-on-one situations and scenarios involving multiple people.
 
-18. You book lists "fully decentralized" as a desirable characteristic of
+17. You book lists "fully decentralized" as a desirable characteristic of
     a multiple-access protocol.
     Why do you think this is a desirable characteristic?
 
-19. For each of the four desirable characteristics of a medium-access protocol
+18. For each of the four desirable characteristics of a medium-access protocol
     listed below
     (taken from your textbook),
     give an example of a protocol that has that characteristic but that is
@@ -181,7 +179,7 @@
     * fully decentralized
     * simple
 
-20. For each of the following scenarios,
+19. For each of the following scenarios,
     decide what the shared medium is and determine whether the protocol is more
     similar to TDMA or FDMA:
     * Your car radio has several stations it can tune into.

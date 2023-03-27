@@ -48,7 +48,9 @@
    You used to play over a land-line,
    and you never bothered to repeat yourself.
    One day you decide to move to walkie-talkies to save on your phone bill,
-   and your friend starts reading back every move to you to make sure they
+   and the walkie-talkies have a bit "scratchier" of a sound when you try to
+   communicate.
+   So, your friend starts reading back every move to you to make sure they
    heard you correctly.
    What does this have to do with link-layer protocols?
 
@@ -68,7 +70,12 @@
     What are some upsides and downsides to this system?
 
 11. In networking terms,
+    at which "layer" did Pizza Shack solve their pizza-jostling problem?
+    Could the problem have been solved more efficiently at a different
+    "layer"?
+    <!--
     how would different layers have come into play in the previous example?
+    -->
 
 12. Consider the high-level description of error detection below.
     What is wrong with this description?

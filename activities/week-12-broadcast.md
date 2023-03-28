@@ -18,16 +18,10 @@
 
 2. What is the major downside to random access protocols?
 
-3. We often use human analogies for medium access protocols.
-   In regular conversation,
-   do people use "carrier sense" as part of their protocols?
-   If so, what would it look like if they did not use carrier sense?
-   If not, how would things change if they did use carrier sense?
-
-4. Finish the sentence:
+3. Finish the sentence:
    A random access protocol will be the most effective type of protocol when...
 
-5. In slotted ALOHA with `p = 0.5`,
+4. In slotted ALOHA with `p = 0.5`,
    assume two senders send in the same slot,
    leading to a collision.
    What is the probability that there will be a collision between those senders
@@ -35,11 +29,11 @@
    What is the probability that the next slot will be wasted
    (either neither sends or both send)?
 
-6. What is the purpose of the slots in slotted ALOHA
+5. What is the purpose of the slots in slotted ALOHA
    (i.e., why are they beneficial)?
    What is a possible downside to using slots?
 
-7. Another 457 student tells you the following:
+6. Another 457 student tells you the following:
 
    When many hosts are connected to a link that is shared with the slotted
    ALOHA protocol,
@@ -48,6 +42,12 @@
    This is almost true,
    but it is imprecise (or makes a hidden assumption).
    What would you need to change about the statement to make it true?
+
+7. We often use human analogies for medium access protocols.
+   In regular conversation,
+   do people use "carrier sense" as part of their protocols?
+   If so, what would it look like if they did not use carrier sense?
+   If not, how would things change if they did use carrier sense?
 
 8. A friend and I are at a party discussing our favorite networking protocols.
    While she explains TCP,

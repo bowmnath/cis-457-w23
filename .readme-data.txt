@@ -176,4 +176,4 @@ Deliverables
 13, ICMP Lab,https://us.prairielearn.com/pl/course_instance/129808/assessment/2338535,Tues., April 4 (recommended)
 14, Ethernet Lab
 14, HW7: Link layer
-15, P2P Project
+15, P2P Project,https://us.prairielearn.com/pl/course_instance/129808/assessment/2339260,Thurs., April 20

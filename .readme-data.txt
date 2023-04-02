@@ -174,6 +174,6 @@ Deliverables
 12, FTP Project,https://us.prairielearn.com/pl/course_instance/129808/assessment/2334239, Monday, March 27
 12, HW 6: Network Layer,https://us.prairielearn.com/pl/course_instance/129808/assessment/2337414,Wed., March 29 (recommended)
 13, ICMP Lab,https://us.prairielearn.com/pl/course_instance/129808/assessment/2338535,Tues., April 4 (recommended)
-14, Ethernet Lab
-14, HW7: Link layer
+14, Ethernet Lab,https://us.prairielearn.com/pl/course_instance/129808/assessment/2339262,Tues., April 11 (recommended)
+14, HW7: Link layer,https://us.prairielearn.com/pl/course_instance/129808/assessment/2339261,Wed., April 12 (recommended)
 15, P2P Project,https://us.prairielearn.com/pl/course_instance/129808/assessment/2339260,Thurs., April 20

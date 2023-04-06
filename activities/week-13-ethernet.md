@@ -103,6 +103,7 @@ not a router.
     self-learning switch.
     Consider both how they learn and their purpose.
 
+<!--
 17. Unlike most previous protocols we have seen,
     Ethernet specifies both header *and* footer information that should be
     attached to a message.
@@ -113,6 +114,16 @@ not a router.
     (Note: this is something that Ethernet handles itself --
     it does not look at the higher-layer package to determine the length of
     the data.)
+
+Removed because this is probably a bit too subtle.
+Answer: Trick question -- it doesn't know when the transition happens.
+It doesn't need to figure out when the CRC bits start.
+Those bits were tacked on in such a way that when the CRC check is done over
+the entire packet, including those bits themselves, there should be a
+remainder of 0 (or some other specific number in practice).
+For a source with more details, see:
+https://networkengineering.stackexchange.com/questions/69253/how-to-detect-start-of-fcs-in-an-ethernet-frame
+-->
 
 # Review questions
 

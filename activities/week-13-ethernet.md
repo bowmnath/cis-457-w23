@@ -217,7 +217,7 @@ questions.
    Why does this wireless network not require a base station?
 
 2. Consider a fairly standard wireless setup where several hosts are connected
-   to a base station that is then connceted to a router via Ethernet.
+   to a base station that is then connected to a router via Ethernet.
    A friend from your networking class makes the observation that connecting
    in this way is similar to using non-switched Ethernet to connect to the
    router.

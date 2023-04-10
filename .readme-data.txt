@@ -103,7 +103,7 @@ Deliverables
 15, public-key cryptography, slides/security-encryption-public.pdf
 15, digital signatures, slides/security-digital-signature.pdf
 15, securing email, slides/security-email.pdf
-16, **Final Exam** Wednesday, April 26 in DataComm Lab<br>Section 1: 2 - 3:50 PM<br>Section 2: 10 - 11:50 AM
+16, **Final Exam**,,Wednesday, April 26 in DataComm Lab<br>Section 1: 2 - 3:50 PM<br>Section 2: 10 - 11:50 AM
 
 > Videos
 1, videos, https://classtranscribe.illinois.edu/offering/25085901-57c3-4816-bd31-47cb85cd70b8#plid=ebdb1fdc-4043-4830-bd71-efc229385333

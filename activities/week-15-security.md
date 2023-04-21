@@ -178,6 +178,7 @@
     If so, explain how it would be done.
     If not, explain why not.
 
+<!--
 24. In the slides,
     a secure email is sent by first signing and then encrypting the message.
     If we performed those steps in the opposite order
@@ -189,3 +190,21 @@
 
     If all of the above were satisfied,
     would there be any other possible downside to sending this way?
+
+Answer: Yes, this still satisfies all three requirements.
+But, it may be different or worse in a way that is too subtle to ask as an
+activity question.
+See: https://crypto.stackexchange.com/questions/5458/should-we-sign-then-encrypt-or-encrypt-then-sign
+
+I don't recall exactly what I had in mind when I wrote this,
+but it was likely either:
+* efficiency -- does either take more work due to the disparity of public-key
+  vs symmetric-key cryptography in terms of speed?
+* leaking info about sender -- if we do sign-then-encrypt, all information is
+  hidden behind receiver's private key.
+  If we do encrypt-then-sign, then any eavesdropper could at least verify who
+  the message came from by checking the hash of the encrypted message against
+  the public-key-"decrypted" hash sent along with the encrypted message.
+  If Alice's public key makes those two match,
+  then she was likely the sender.
+-->

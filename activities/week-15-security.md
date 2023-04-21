@@ -118,10 +118,9 @@
 
 16. You download a Linux distribution for installation and,
     because you are a responsible computer user,
-    you also download a file `SHA256SUMS` and another file `SHA256SUMS.gpg`.
-    The first file is a hash of the installer that you downloaded.
-    The second file is the same hash file,
-    but signed by the Linux maintainer's private key.
+    you also download a file `SHA256SUMS.gpg`.
+    The second file is a file containing the hash of the installer
+    signed by the Linux maintainer's private key.
 
     Describe, at a high level, the steps you should take before you run the
     installer.
@@ -132,9 +131,11 @@
       Rather, think of the installer as a message and consider the steps you
       should take before trusting it.
 
+<!--
 17. Your solution to the previous question should have involved a few steps.
     For any given step,
     what could go wrong if you did not include that step?
+-->
 
 18. My computer is old and slow,
     and I want a hash function that can run quickly.
